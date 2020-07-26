@@ -1,0 +1,1172 @@
+/* Keypad */
+
+.Keypad {
+  position: absolute;
+  width: 332px;
+  height: 386px;
+  left: calc(50% - 332px/2 + 0.5px);
+  top: 157px;
+  
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Box */
+
+.Box {
+  position: absolute;
+  width: 439px;
+  height: 608px;
+  left: calc(50% - 439px/2);
+  top: 83px;
+  
+  background: #B3B2B2;
+  box-shadow: 7px 7px 25px -1px rgba(7, 7, 7, 0.74);
+  border-radius: 16px;
+}
+
+/* Display */
+
+.Display {
+  position: absolute;
+  width: 357px;
+  height: 87px;
+  left: calc(50% - 357px/2);
+  top: 31px;
+  
+  background: #F7F5F5;
+  border-radius: 8px;
+}
+
+
+
+
+/* ON */
+
+.ON {
+  position: absolute;
+  width: 31px;
+  height: 18px;
+  left: calc(50% - 31px/2 - 140px);
+  top: 548px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+  
+}
+
+
+
+/* Button-Equal */
+
+.Button-Equal {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 + 66px);
+  top: calc(50% - 60px/2 + 163px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-Period */
+
+.Button-Period {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 - 4px);
+  top: calc(50% - 60px/2 + 163px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-9 */
+
+.Button-9 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 + 66px);
+  top: calc(50% - 60px/2 - 77px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-8 */
+
+.Button-8 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 - 4px);
+  top: calc(50% - 60px/2 - 77px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-7 */
+
+.Button-7 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 - 74px);
+  top: calc(50% - 60px/2 - 77px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-6 */
+
+.Button-6 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 + 66px);
+  top: calc(50% - 60px/2 + 3px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-5 */
+
+.Button-5 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 - 4px);
+  top: calc(50% - 60px/2 + 3px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-4 */
+
+.Button-4 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 - 74px);
+  top: calc(50% - 60px/2 + 3px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-3 */
+
+.Button-3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 + 66px);
+  top: calc(50% - 60px/2 + 83px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-2 */
+
+.Button-2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 - 4px);
+  top: calc(50% - 60px/2 + 83px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-1 */
+
+.Button-1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 - 74px);
+  top: calc(50% - 60px/2 + 83px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+
+/* Button-0 */
+
+.Button-0 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 60px/2 - 74px);
+  top: calc(50% - 60px/2 + 163px);
+  
+  background: #6E96A7;
+  border-radius: 30px;
+}
+
+
+/* Equal */
+
+.Equal {
+  position: absolute;
+  width: 26px;
+  height: 36px;
+  left: 17px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* Period */
+
+.Period {
+  position: absolute;
+  width: 7px;
+  height: 36px;
+  left: 27px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 9 */
+
+.Nine {
+  position: absolute;
+  width: 20px;
+  height: 36px;
+  left: 20px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 8 */
+
+.Eight {
+  position: absolute;
+  width: 19px;
+  height: 36px;
+  left: 21px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 7 */
+
+.Seven {
+  position: absolute;
+  width: 18px;
+  height: 36px;
+  left: 21px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 6 */
+
+.Six {
+  position: absolute;
+  width: 20px;
+  height: 36px;
+  left: 20px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 5 */
+
+.Five {
+  position: absolute;
+  width: 19px;
+  height: 36px;
+  left: 21px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 4 */
+
+.Four {
+  position: absolute;
+  width: 20px;
+  height: 36px;
+  left: 20px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 3 */
+
+.Three {
+  position: absolute;
+  width: 19px;
+  height: 36px;
+  left: 21px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 2 */
+
+.Two {
+  position: absolute;
+  width: 20px;
+  height: 36px;
+  left: 20px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 1 */
+
+.One {
+  position: absolute;
+  width: 12px;
+  height: 36px;
+  left: 24px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+
+
+
+/* 0 */
+
+.Zero {
+  position: absolute;
+  width: 23px;
+  height: 36px;
+  left: 19px;
+  top: 15px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #D6D6D6;
+}
+
+/* Button-OFF */
+
+.Button-OFF {
+  position: absolute;
+  width: 54px;
+  height: 26px;
+  left: calc(50% - 54px/2 + 139px);
+  top: calc(50% - 26px/2 - 180px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-AC */
+
+.Button-AC {
+  position: absolute;
+  width: 54px;
+  height: 66px;
+  left: calc(50% - 54px/2 - 139px);
+  top: calc(50% - 66px/2 + 151px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-Clear */
+
+.Button-Clear {
+  position: absolute;
+  width: 54px;
+  height: 65px;
+  left: calc(50% - 54px/2 - 139px);
+  top: calc(50% - 65px/2 + 65.5px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-Plus-Minus */
+
+.Button-Plus-Minus {
+  position: absolute;
+  width: 54px;
+  height: 50px;
+  left: calc(50% - 54px/2 - 139px);
+  top: calc(50% - 50px/2 - 12px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-Percent */
+
+.Button-Percent {
+  position: absolute;
+  width: 54px;
+  height: 50px;
+  left: calc(50% - 54px/2 - 139px);
+  top: calc(50% - 50px/2 - 82px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-MC */
+
+.Button-MC {
+  position: absolute;
+  width: 54px;
+  height: 32px;
+  left: calc(50% - 54px/2 - 139px);
+  top: calc(50% - 32px/2 - 137px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-MR */
+
+.Button-MR {
+  position: absolute;
+  width: 54px;
+  height: 32px;
+  left: calc(50% - 54px/2 - 72px);
+  top: calc(50% - 32px/2 - 137px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-M-Minus */
+
+.Button-M-Minus {
+  position: absolute;
+  width: 54px;
+  height: 32px;
+  left: calc(50% - 54px/2 - 2px);
+  top: calc(50% - 32px/2 - 137px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-M-Plus */
+
+.Button-M-Plus {
+  position: absolute;
+  width: 54px;
+  height: 32px;
+  left: calc(50% - 54px/2 + 68px);
+  top: calc(50% - 32px/2 - 137px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-SquareRoot */
+
+.Button-SquareRoot {
+  position: absolute;
+  width: 54px;
+  height: 36px;
+  left: calc(50% - 54px/2 + 139px);
+  top: calc(50% - 36px/2 - 135px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-Divid */
+
+.Button-Divid {
+  position: absolute;
+  width: 54px;
+  height: 47px;
+  left: calc(50% - 54px/2 + 139px);
+  top: calc(50% - 47px/2 - 81.5px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-Times */
+
+.Button-Times {
+  position: absolute;
+  width: 54px;
+  height: 51px;
+  left: calc(50% - 54px/2 + 139px);
+  top: calc(50% - 51px/2 - 21.5px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-Minus */
+
+.Button-Minus {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: calc(50% - 54px/2 + 139px);
+  top: calc(50% - 54px/2 + 42px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* Button-Plus */
+
+.Button-Plus {
+  position: absolute;
+  width: 54px;
+  height: 104px;
+  left: calc(50% - 54px/2 + 139px);
+  top: calc(50% - 104px/2 + 132px);
+  
+  background: #58575C;
+  border-radius: 6px;
+}
+
+
+
+/* OFF */
+
+.OFF {
+  position: absolute;
+  left: 24.07%;
+  right: 22.22%;
+  top: 21.88%;
+  bottom: 24.28%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* AC */
+
+.AC {
+  position: absolute;
+  left: 20.37%;
+  right: 18.52%;
+  top: 30.97%;
+  bottom: 32.67%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* Clear */
+
+.Clear {
+  position: absolute;
+  left: 35.19%;
+  right: 33.33%;
+  top: 31.11%;
+  bottom: 31.97%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* Plus-Minus */
+
+.Plus-Minus {
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 25.88%;
+bottom: 26.12%;
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.115em;
+
+color: #E1E4EA;
+}
+
+
+
+
+/* Percent */
+
+.Percent {
+  position: absolute;
+  left: 33.33%;
+  right: 31.48%;
+  top: 25.88%;
+  bottom: 26.12%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* MC */
+
+.MC {
+  position: absolute;
+  left: 22.22%;
+  right: 22.22%;
+  top: 21.88%;
+  bottom: 21.88%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* MR */
+
+.MR {
+position: absolute;
+left: 24.07%;
+right: 22.22%;
+top: 21.88%;
+bottom: 21.88%;
+
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #E1E4EA;
+}
+
+
+
+
+/* M-Minus */
+
+.M-Minus {
+  position: absolute;
+  left: 29.63%;
+  right: 27.78%;
+  top: 21.88%;
+  bottom: 21.88%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* M-Plus */
+
+.M-Plus {
+  position: absolute;
+  left: 25.93%;
+  right: 24.07%;
+  top: 21.88%;
+  bottom: 21.88%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* SquareRoot */
+
+.SquareRoot {
+  position: absolute;
+  left: 29.63%;
+  right: 27.78%;
+  top: 24.65%;
+  bottom: 25.35%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* Divid */
+
+.Divid {
+  position: absolute;
+  left: 40.74%;
+  right: 40.74%;
+  top: 24%;
+  bottom: 24.93%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* Times */
+
+.Times {
+  position: absolute;
+  left: 38.89%;
+  right: 38.89%;
+  top: 25.8%;
+  bottom: 27.14%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* Minus */
+
+.Minus {
+  position: absolute;
+  left: 40.74%;
+  right: 38.89%;
+  top: 16.32%;
+  bottom: 17.01%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+/* Plus */
+
+.Plus {
+  position: absolute;
+  left: 37.04%;
+  right: 37.04%;
+  top: 38.22%;
+  bottom: 38.7%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #E1E4EA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
