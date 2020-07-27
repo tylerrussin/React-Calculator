@@ -1,14 +1,3 @@
-/* Keypad */
-
-.Keypad {
-  position: absolute;
-  width: 332px;
-  height: 386px;
-  left: calc(50% - 332px/2 + 0.5px);
-  top: 157px;
-  
-}
-
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -18,9 +7,7 @@
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
-
 /* Box */
-
 .Box {
   position: absolute;
   width: 439px;
@@ -32,9 +19,7 @@
   box-shadow: 7px 7px 25px -1px rgba(7, 7, 7, 0.74);
   border-radius: 16px;
 }
-
 /* Display */
-
 .Display {
   position: absolute;
   width: 357px;
@@ -45,9 +30,24 @@
   background: #F7F5F5;
   border-radius: 8px;
 }
+.Display-Font {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  padding-right: 10px;
 
-
-
+  text-align: right;
+  color: #6E96A7;
+}
+/* Keypad */
+.Keypad {
+  position: absolute;
+  width: 332px;
+  height: 386px;
+  left: calc(50% - 332px/2 + 0.5px);
+  top: 157px;
+}
 
 /* ON */
 
